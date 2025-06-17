@@ -96,6 +96,8 @@ Select the extension/ folder
 
 * OUTPUT
 
+![Image](https://github.com/user-attachments/assets/38789eb4-fd8d-4771-8e82-45fcd2f2ab22)
+
 
 
 
