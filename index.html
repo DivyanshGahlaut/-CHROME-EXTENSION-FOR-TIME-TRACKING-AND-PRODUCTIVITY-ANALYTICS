@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Productivity Dashboard</title>
+
+  <!-- ✅ Include Chart.js from CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+ <style>
+  body {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+
+  h1 {
+    color: #333;
+  }
+
+  canvas {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+</style>
+
+</head>
+<body>
+  <h1>Productivity Dashboard</h1>
+
+  <!-- ✅ Add a container to center and size the chart -->
+  <div style="max-width: 400px; margin: 0 auto;">
+    <canvas id="productivityChart"></canvas>
+  </div>
+
+  <script src="dashboard.js"></script>
+</body>
+
+</html>
+
