@@ -74,5 +74,28 @@ Backend API: http://localhost:3000
 
 Dashboard UI: http://127.0.0.1:5500/CHROME EXTENSION/dashboard/index.html
 
+* How to Run the Project:
+
+1. Start the backend:
+bash
+cd CHROME EXTENSION/backend
+node server.js
+2. Launch dashboard:
+Right-click index.html inside dashboard/ → "Open with Live Server"
+
+Or serve using any HTTP server like Python or Node
+
+3. Load Chrome Extension:
+Open chrome://extensions/
+
+Enable Developer Mode
+
+Click "Load Unpacked"
+
+Select the extension/ folder
+
 * OUTPUT
+
+
+
 
